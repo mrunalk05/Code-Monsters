@@ -1,4 +1,4 @@
-# Code-Monsters
+# WCE-NEWSLET
 
 With a campus of almost 90 acres, WCE hosts over 5k people, 15+ mega-events every year, 10+ clubs, and 5+ famous spots. The use of social media alone can't suffice for managing and updating them.
 
