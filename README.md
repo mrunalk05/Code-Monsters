@@ -13,3 +13,5 @@ There are often clashes between club meetings because the time and the location 
 As stated before, WCE is an expansive campus. For a new person, it's a bit difficult to find a place, so Up-To-Date WCE has a feature called “WCE Maps”, which will help one to find a particular place.
 
 Adding to this even it takes long walks and time to go to canteens like Sagar and Lipton, and if they are closed. Now, there is no need to go to canteens like Sagar and Lipton and find out if they are open, with our new feature WCE Fantasy you can just refresh the website, and you will know the present state and everything at WCE.
+
+Link to website: https://mrunalk05.github.io/Code-Monsters/
