@@ -1,4 +1,4 @@
-onclick.getelementByclass('new');{
+onclick.getelementByclass('button');{
     let xhr = new XMLHttpRequest();
 xhr.open("POST", "https://newslet-server.herokuapp.com/signin");
 
