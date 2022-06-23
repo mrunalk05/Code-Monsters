@@ -8,8 +8,8 @@ xhr.setRequestHeader("Content-Type", "application/json");
 xhr.onload = () => console.log(xhr.responseText);
 
 let data = `{
-  "Id": 78912,
-  "Customer": "Jason Sweet",
+  "email":"mrunalkhade35@gmail.com",
+  "password":"sangita@123",
 }`;
 
 xhr.send(data);
