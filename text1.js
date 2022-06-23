@@ -1,5 +1,5 @@
 function fetchdata(){
-    fetch("https://reqres.in/api/users?sort=desc")
+    fetch("https://wcenewslet.herokuapp.com/signin")
     .then(response => {
         console.log(response)
         if(!response.ok){
@@ -11,7 +11,7 @@ function fetchdata(){
     .then(data => {
         console.log(data.data);
         const html =data.data.map(user =>{
-            return `<p>Name: ${user.first_name + " "+ user.last_name}</p>`
+            return `<p>Name: ${user.email + " "+ user.password}</p>`
         }).join("");
         console.log(html);
         document.querySelector("#UPDATES")
