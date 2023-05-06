@@ -50,8 +50,12 @@
     border-radius: 5px;
   }
   .front,.back{
+    background-image: url('../styles/images/lipton.jpeg');
     width: 100%;
     height: 100%;
+    color: #e9e9e9;
+    align-items: center;
+    background-size:cover;
     overflow: hidden;
     backface-visibility: hidden;
     position: absolute;
@@ -59,6 +63,7 @@
     border-radius: 5px;
   }
   .front img{
+    background-image: url('../styles/images/222222lipton.png');
     height: 100%;
     border-radius: 5px;
   }

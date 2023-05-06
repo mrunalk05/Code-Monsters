@@ -12,6 +12,7 @@ function Cafe() {
     <div className="container">
       <div className="card middle">
         <div className="front">
+        <h2 color='white'>LIPTON</h2>
           <img src="../styles/images/lipton.jpeg" alt="" />
         </div>
         <div className="back">
@@ -27,7 +28,7 @@ function Cafe() {
       </div>
       <div className="card middle">
         <div className="front">
-          <img src="../styles/images/lipton.jpeg" alt="" />
+          {/* <img src="" alt="" /> */}
         </div>
         <div className="back">
           <div className="back-content">

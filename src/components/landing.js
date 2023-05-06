@@ -37,15 +37,17 @@ function Landing() {
                 {/* </a> */}
               </li>
               <li>
-                  <FontAwesomeIcon icon={faCubes} onClick={()=>navigate('/cafe')} /> Non-Curriculum
+                  <FontAwesomeIcon icon={faCubes} onClick={()=>navigate('/non-ciri')} /> Non-Curriculum
               </li>
               <li>
-                <a href="cafeteria2.html">
-                  <FontAwesomeIcon icon={faCoffee} /> Cafeteria
-                </a>
+                  <FontAwesomeIcon icon={faCoffee} onClick={()=>navigate('/cafe')} /> Cafeteria
               </li>
-              <li><a href="#"><i className="fas fa-cubes"></i>Clubs</a></li>
-              <li><a href="#"><i className="fas fa-image"></i>Memories</a></li>
+              <li>
+                  <FontAwesomeIcon icon={faCubes} onClick={()=>navigate('/acm')} /> Clubs
+              </li>
+              <li>
+                  <FontAwesomeIcon icon={faCubes} onClick={()=>navigate('/memo')} /> Memories
+              </li>
               <div className="icons">
                 <a href="http://uni.wcoeapps.in" target="_blank">
                   <FontAwesomeIcon icon={faUserCircle} />
@@ -73,10 +75,10 @@ function Landing() {
         <p style={{ color: "white" }}>
           <b> ONE STOP SOLUTION FOR ALL WALCHANDITES </b>
         </p>
-        <button className="button" style={{ verticalAlign: "middle" }}>
-          <a href="login.html">
+        <button className="button" onClick={navigate('/login')} style={{ verticalAlign: "middle" }}>
+          {/* <a href="login.html"> */}
             <span> Login</span>
-          </a>
+          {/* </a> */}
         </button>
       </div>
     </header>
